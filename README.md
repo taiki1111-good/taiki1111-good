@@ -17,14 +17,16 @@
 
 研究・検証用の自動売買EAフレームワークです。
 
-- Repository: https://github.com/taiki1111-good/trading-ea-portfolio
-- Overview: `docs/portfolio/portfolio_overview.md`
-- Architecture: `docs/portfolio/architecture_for_portfolio.md`
-- Status: Research / validation framework, not production-ready
-
 売買判断・リスク制御・実行・ログ・評価を分離し、判断過程を後から検証できる分析/検証基盤として設計しています。
 
 このプロジェクトでは、収益性や実運用可能性を主張するのではなく、設計、検証手順、ログ追跡、説明可能性を重視しています。
+
+Links:
+
+- Repository: https://github.com/taiki1111-good/trading-ea-portfolio
+- Overview: https://github.com/taiki1111-good/trading-ea-portfolio/blob/main/docs/portfolio/portfolio_overview.md
+- Architecture: https://github.com/taiki1111-good/trading-ea-portfolio/blob/main/docs/portfolio/architecture_for_portfolio.md
+- Interview pitch: https://github.com/taiki1111-good/trading-ea-portfolio/blob/main/docs/portfolio/interview_pitch.md
 
 主なポイント:
 
@@ -38,9 +40,9 @@
 
 Status:
 
-- 説明資料を整備済み
-- 公開範囲を確認中
-- 公開後は、README と `docs/portfolio/*` を主な説明導線にする予定
+- 公開用 repository 作成済み
+- README と `docs/portfolio/*` を主な説明導線として整理済み
+- Research / validation framework, not production-ready
 
 ## Other projects
 
@@ -69,6 +71,6 @@ Status:
 
 現在は、以下を優先して整備しています。
 
-1. `trading-ea` の公開前チェック
+1. `trading-ea` の公開用repositoryと説明導線の最終確認
 2. GitHubプロフィールから `trading-ea` への導線整理
 3. `English Reader Web` のデモ公開準備
