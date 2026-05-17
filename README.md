@@ -26,7 +26,6 @@ Links:
 - Repository: https://github.com/taiki1111-good/trading-ea-portfolio
 - Overview: https://github.com/taiki1111-good/trading-ea-portfolio/blob/main/docs/portfolio/portfolio_overview.md
 - Architecture: https://github.com/taiki1111-good/trading-ea-portfolio/blob/main/docs/portfolio/architecture_for_portfolio.md
-- Interview pitch: https://github.com/taiki1111-good/trading-ea-portfolio/blob/main/docs/portfolio/interview_pitch.md
 
 主なポイント:
 
@@ -46,9 +45,28 @@ Status:
 
 ### English Reader Web
 
-英語長文を読みながら、単語保存・既読管理を行う軽量な学習支援Webアプリです。
+英語長文を読みながら、単語保存・既読管理・復習を行う軽量な学習支援Webアプリです。
 
-現在は作成中のため、デモURLと詳細説明は公開準備が整ってから追加します。
+外部APIやクラウド同期に依存せず、HTML / CSS / JavaScript と `localStorage` を使って、ブラウザ上で動く学習ツールとして作成しています。
+
+Links:
+
+- Demo: https://taiki1111-good.github.io/english-reader-web-portfolio/
+- Repository: https://github.com/taiki1111-good/english-reader-web-portfolio
+
+主なポイント:
+
+- 英語長文一覧と読解画面
+- 単語・語句の保存
+- 単語帳、復習、フラッシュカード
+- 文型・文法ラベルの確認機能
+- `localStorage` によるローカル保存
+
+Status:
+
+- GitHub Pages で公開済み
+- 静的Webアプリとして動作
+- 今後も教材・UI・復習機能を段階的に改善予定
 
 ## Public description policy
 
@@ -66,5 +84,5 @@ Status:
 現在は、以下を優先して整備しています。
 
 1. `trading-ea` の公開用repositoryと説明導線の最終確認
-2. GitHubプロフィールから `trading-ea` への導線整理
-3. `English Reader Web` のデモ公開準備
+2. `English Reader Web` の公開デモと説明導線の整備
+3. 各プロジェクトの公開向け説明を、実装範囲と未実装範囲が分かる形に整理
